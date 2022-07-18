@@ -1,0 +1,75 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet"/>
+    <title>BMI Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Body Mass Index</h1>
+      <div class="content">
+        <p>
+          <strong>Body Mass Index (BMI)</strong> is a measure of the amount of
+          fat in a human body. It is a single numeric value with the following
+          interpretation:
+        </p>
+
+        <div class="table">
+          <table>
+            <tr>
+              <th>Underweight</th>
+              <td>Less than 18</td>
+            </tr>
+            <tr>
+              <th>Normal</th>
+              <td>18-25</td>
+            </tr>
+            <tr>
+              <th>Overweight</th>
+              <td>25-30</td>
+            </tr>
+            <tr>
+              <th>Over 30</th>
+              <td>More than 30</td>
+            </tr>
+          </table>
+        </div>
+
+        <p>Use the calculator below to calculate your BMI.</p>
+
+        <p class="item1">
+          <label for="height">Height</label>
+        </p>
+        <p>
+          <input
+            type="number"
+            id="height-box"
+            required
+            minlength="2"
+            maxlength="3"
+          />
+         <p>Height in centimeters</p> 
+        </p>
+
+        <p class="item1">
+          <label for="weight">Weight</label>
+        </p>
+        <p>
+          <input
+          type="number"
+          id="weight-box"
+          required
+          minlength="2"
+          maxlength="3"
+          />
+        </p>
+        <p class="weight1">Weight in kilograms</p>
+        <button>Calculate</button>
+      </div>
+      
+    </div>
+  </body>
+</html>
