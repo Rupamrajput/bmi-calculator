@@ -41,6 +41,24 @@
 
         <p>Use the calculator below to calculate your BMI.</p>
 
+        <p class="para1">
+          <label class="label1" for="dropdown-menu"
+            >Select the unit system you want to use:
+          </label>
+          <select name="unit" id="unit">
+            <option value="imperial">Imperial</option>
+            <option value="metric">Metric</option>
+          </select>
+        </p>
+
+        <p class="note">
+          <strong>Note: </strong><br />
+          For metric measurements, use centimeters for height and kilograms for
+          weight.
+          <br />
+          For imperial measurements, use foot and inches for height and pounds
+          for weight.
+        </p>
         <p class="item1">
           <label for="height">Height</label>
         </p>
@@ -49,12 +67,9 @@
             type="number"
             id="height-box"
             required
-            min="0.248"
-            max="2.717"
             minlength="2"
             maxlength="3"
           />
-         <p>Height in centimeters</p> 
         </p>
 
         <p class="item1">
@@ -62,13 +77,11 @@
         </p>
         <p>
           <input
-          type="number"
-          id="weight-box"
-          required
-          min="0.212"
-          max="635"
-          minlength="2"
-          maxlength="3"
+            type="number"
+            id="weight-box"
+            required
+            minlength="2"
+            maxlength="3"
           />
         </p>
         <p class="weight1">Weight in kilograms</p>
@@ -76,6 +89,7 @@
       </div>
       <p id = "result"></p>
       
+
     </div>
   </body>
 </html>
