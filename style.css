@@ -12,16 +12,9 @@ h1 {
   padding-bottom: 25px;
 }
 
-/* .container {
-  padding-top: 10px;
-  display: grid;
-} */
-
-/* .item {
-  align-items: start;
-  justify-content: flex-start;
-} */
-
+#result{
+  padding: 10px 0px 50px 25px;
+}
 .content {
   display: grid;
   padding: 0 25px;
