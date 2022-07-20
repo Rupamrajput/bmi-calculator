@@ -12,33 +12,28 @@ h1 {
   padding-bottom: 25px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-#result{
-  padding: 10px 0px 50px 25px;
-  paddinh
+#result {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 25px;
 }
->>>>>>> 004a7eadd50c873b196ef0abb31a6c2d8ccac91e
-=======
-#result{
-  padding: 10px 0px 50px 25px;
-}
->>>>>>> refs/remotes/origin/satvik
+
 .content {
   display: grid;
   padding: 0 25px;
 }
 
-button {
+#btn {
   height: 40px;
   width: 90px;
-  background-color: #0099ff;
+  background-color: #027bff;
   color: white;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  padding: 0 10px;
+  padding: 0px 10px;
+  margin: 15px 0px;
 }
 
 button:hover {
@@ -66,13 +61,13 @@ table {
 
 #height-box {
   display: flex;
-  width: 70%;
+  width: 90%;
   padding: 5px;
 }
 
 #weight-box {
   display: block;
-  width: 70%;
+  width: 90%;
   padding: 5px;
 }
 
