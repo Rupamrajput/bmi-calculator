@@ -30,15 +30,16 @@ h1 {
   padding: 0 25px;
 }
 
-button {
+#btn {
   height: 40px;
   width: 90px;
-  background-color: #0099ff;
+  background-color: #027BFF;
   color: white;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  padding: 0 10px;
+  padding: 0px 10px;
+  margin: 15px 0px;
 }
 
 button:hover {
@@ -66,13 +67,13 @@ table {
 
 #height-box {
   display: flex;
-  width: 70%;
+  width: 90%;
   padding: 5px;
 }
 
 #weight-box {
   display: block;
-  width: 70%;
+  width: 90%;
   padding: 5px;
 }
 
