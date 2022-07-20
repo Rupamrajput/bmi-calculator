@@ -13,12 +13,18 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 #result{
   padding: 10px 0px 50px 25px;
   paddinh
 }
 >>>>>>> 004a7eadd50c873b196ef0abb31a6c2d8ccac91e
+=======
+#result{
+  padding: 10px 0px 50px 25px;
+}
+>>>>>>> refs/remotes/origin/satvik
 .content {
   display: grid;
   padding: 0 25px;
