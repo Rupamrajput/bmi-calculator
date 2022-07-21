@@ -3,9 +3,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
     <title>BMI Calculator</title>
-  </head>                                                                                    
+  </head>
 
   <body>
     <div class="container">
@@ -44,18 +44,25 @@
           <label class="label1" for="dropdown-menu"
             >Select the unit system you want to use:
           </label>
-          <input type="radio" name="unit" id = "imperial" value="imperial" onclick="imperial()">Imperial
-          <input type="radio" name="unit" value="metric" onclick="metric()">Metric
+          <input
+            type="radio"
+            name="unit"
+            id="imperial"
+            value="imperial"
+            onclick="imperial()"
+          />Imperial
+          <input
+            type="radio"
+            name="unit"
+            value="metric"
+            onclick="metric()"
+          />Metric
         </p>
         <p class="item1">
           <label for="height">Height</label>
         </p>
         <p>
-          <input
-            type="number"
-            id="height-box"
-            required
-          />
+          <input type="number" id="height-box" required />
         </p>
         <p id="height-unit"></p>
 
@@ -63,18 +70,12 @@
           <label for="weight">Weight</label>
         </p>
         <p>
-          <input
-            type="number"
-            id="weight-box"
-            required
-          />
+          <input type="number" id="weight-box" required />
         </p>
         <p id="weight-unit"></p>
         <button id="btn" type="submit" onclick="checkBMI()">Calculate</button>
       </div>
-      <p id = "result"></p>
-      
-
+      <p id="result"></p>
     </div>
     <script type="text/javascript" src="app.js"></script>
   </body>

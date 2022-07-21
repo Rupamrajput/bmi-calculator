@@ -11,9 +11,11 @@ h1 {
   padding-left: 25px;
   padding-bottom: 25px;
 }
-
-#result{
-  padding: 10px 0px 50px 25px;
+#result {
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 50px;
+  padding-left: 25px;
 }
 .content {
   display: grid;
@@ -23,7 +25,7 @@ h1 {
 #btn {
   height: 40px;
   width: 90px;
-  background-color: #027BFF;
+  background-color: #027bff;
   color: white;
   border: none;
   border-radius: 3px;
