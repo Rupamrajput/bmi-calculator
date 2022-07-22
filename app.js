@@ -14,7 +14,7 @@ function checkBMI() {
       alert("Enter weight between 7 pounds - 1500 pounds");
       return false;
     }
-    if (height < 0.7 || weight > 9) {
+    if (height < 0.7 || height > 9) {
       alert("Enter height between 0.7 foot - 9 foot");
       return false;
     }
